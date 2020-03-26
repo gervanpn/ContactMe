@@ -36,7 +36,8 @@ body, html{
 }
 
 .allfonts{
-  color:gray;
+  color:white;
+  font-weight: bolder;
 }
 
 .container {
@@ -87,7 +88,7 @@ body, html{
   font-size: 2rem;
 }
 
-.font-two-sm {
+.font-two-lg {
   font-family: 'Alegreya', serif;
   font-size: 3rem;
 }
