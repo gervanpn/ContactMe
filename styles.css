@@ -37,16 +37,14 @@
 
 /* Class for columns - David */
 .container {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 1fr;
-grid-column-gap: 6px;
-grid-row-gap: px;
-}
-
-.div-3-columns- {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 6px;
+  grid-row-gap: px;
   column-count: 3;
 }
+
 /*This part is for mobile browsers specifc*/
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
