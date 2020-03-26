@@ -1,71 +1,107 @@
-/**********************************/
-/*This part is for mobile browsers*/
-/**********************************/
+/*This part is for Browser and common settings*/
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar > ul {
+  padding: 0;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+}
+
+.nav-items > ul {
+  padding: 0;
+}
+
+.mr-auto {
+  margin: auto;
+}
+
+.hd {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inactive-btn-A {
+  padding: .60rem 1rem;
+  text-decoration: none;
+}
+
+.allfonts{
+  color:gray;
+}
+
+/*This part is for mobile browsers specifc*/
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /**********************************/
-/*This part is for iPads browsers*/
+/*This part is for iPads browser specific*/
 /**********************************/
 @media only screen and (min-width: 480px) and (max-width: 768px) {
 
-    
- 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
