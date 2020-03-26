@@ -35,6 +35,38 @@
   color:gray;
 }
 
+/*  Font classes  */
+.font-one-sm {
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+}
+
+.font-one-md {
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+}
+
+.font-one-lg {
+  font-family: 'Lora', serif;
+  font-size: 3rem;
+}
+
+.font-two-sm {
+  font-family: 'Alegreya', serif;
+  font-size: 1rem;
+}
+
+.font-two-md {
+  font-family: 'Alegreya', serif;
+  font-size: 2rem;
+}
+
+.font-two-sm {
+  font-family: 'Alegreya', serif;
+  font-size: 3rem;
+}
+/*  End of Font classes */
+
 /*This part is for mobile browsers specifc*/
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
