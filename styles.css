@@ -1,4 +1,8 @@
 /*This part is for Browser and common settings*/
+body, html{
+    padding:0px;
+    margin:0px;
+}
 .nav-bar {
   display: flex;
   align-items: center;
@@ -35,6 +39,19 @@
   color:gray;
 }
 
+.background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    align-items: flex-start;
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+.img-bg-home {
+    background: linear-gradient( rgba(0, 0, 0, 0.00001), rgba(0, 0, 0, .000001)), url('images/home-bg.jpg');
+}
+
 /*  Font classes  */
 .font-one-sm {
   font-family: 'Lora', serif;
@@ -65,6 +82,8 @@
   font-family: 'Alegreya', serif;
   font-size: 3rem;
 }
+
+
 /*  End of Font classes */
 
 /*This part is for mobile browsers specifc*/
