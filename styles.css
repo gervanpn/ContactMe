@@ -39,6 +39,15 @@ body, html{
   color:gray;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 6px;
+  grid-row-gap: px;
+  column-count: 3;
+}
+
 .background {
     background-repeat: no-repeat;
     background-size: cover;
