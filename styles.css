@@ -36,7 +36,7 @@
 }
 
 /* Class for columns - David */
-.container {
+.div-container-3-columns {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
