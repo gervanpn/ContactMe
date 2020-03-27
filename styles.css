@@ -64,10 +64,14 @@ body, html{
 
 .img-bg-about {
     background: linear-gradient( rgba(0, 0, 0, 0.00001), rgba(0, 0, 0, .000001)), url('images/about-bg.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 .img-bg-contact {
     background: linear-gradient( rgba(0, 0, 0, 0.00001), rgba(0, 0, 0, .000001)), url('images/contact-bg.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 /*  Font classes  */
