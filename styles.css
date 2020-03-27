@@ -3,13 +3,10 @@ body, html{
     padding:0px;
     margin:0px;
 }
+
 .nav-bar {
   display: flex;
   align-items: center;
-}
-
-.nav-bar > ul {
-  padding: 0;
 }
 
 .nav-items {
@@ -17,28 +14,22 @@ body, html{
   list-style: none;
 }
 
-.nav-items > ul {
-  padding: 0;
-}
-
-.mr-auto {
-  margin: auto;
-}
-
-.hd {
-  display: flex;
-  justify-content: space-around;
-}
-
-.inactive-btn-A {
+.nav-button {
   padding: .60rem 1rem;
   text-decoration: none;
 }
 
-.allfonts{
+.nav-fonts{
   color:white;
   font-weight: bolder;
 }
+
+.nav-display {
+  display: flex;
+  justify-content: space-around;
+}
+
+
 
 .container {
   display: grid;
@@ -58,6 +49,18 @@ body, html{
 
 .img-bg-home {
     background: linear-gradient( rgba(0, 0, 0, 0.00001), rgba(0, 0, 0, .000001)), url('images/home-bg.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.img-bg-about {
+    background: linear-gradient( rgba(0, 0, 0, 0.00001), rgba(0, 0, 0, .000001)), url('images/about-bg.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.img-bg-contact {
+    background: linear-gradient( rgba(0, 0, 0, 0.00001), rgba(0, 0, 0, .000001)), url('images/contact-bg.jpg');
     background-repeat: no-repeat;
     width: 100%;
 }
