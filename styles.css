@@ -44,8 +44,6 @@ body, html{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 6px;
-  grid-row-gap: px;
   column-count: 3;
 }
 
@@ -60,6 +58,8 @@ body, html{
 
 .img-bg-home {
     background: linear-gradient( rgba(0, 0, 0, 0.00001), rgba(0, 0, 0, .000001)), url('images/home-bg.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 .img-bg-about {
